@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SearchBar from '../containers/SearchBar';
+import AddressList from '../containers/AddressList';
 
 export default class App extends Component {
   render() {
@@ -7,6 +8,7 @@ export default class App extends Component {
       <div>
         Hello World!
         <SearchBar />
+        <AddressList />
       </div>
     );
   }
